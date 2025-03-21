@@ -1,0 +1,151 @@
+<!--
+    Landing page for Online Portfolio
+
+    Includes:
+    1. A navigation bar across the top (uses flexbox)
+    2. A Hero element with a "get started" button for "call to action" (uses flexbox)
+    3. Sections with multi-column desktop layouts:
+        - Why choose us: Uses CSS Grid
+        - Learning Plans: Uses column-count 3, 1 with mobile
+        - Reviews: FlexBox
+        (Use one column-count, one flexbox, and one css grid)
+    4. A footer element with links
+
+    Page changes displays with mobile devices.
+
+    Fonts: IBM Plex and Quicksand
+    References:
+    - Fonts:
+        - Quicksand: https://fonts.google.com/selection/embed
+        - IBM Plex Serif: https://fonts.google.com/specimen/IBM+Plex+Serif?query=ibm
+    - Design Inspo:
+        - https://www.webdesignmuseum.org/gallery/apple-2001
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <link rel="stylesheet" href="styles/landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="top-nav">
+    <a href="#">Home</a>
+    <a href="#">CV</a>
+    <a href="#">Resources</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+</nav>
+
+<div class="sub-nav">
+    <a href="./pages/works.html">Works</a>
+    <a href="./pages/exhibitions.html">Exhibitions</a>
+    <a href="#">Writings</a>
+    <a href="#">Notes</a>
+    <a href="#">Music</a>
+    <a href="#">Film</a>
+</div>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>First, Last Name</h1>
+        <p>A short description maybe, something on<br>
+            Occupation, title, etc.</p>
+    </div>
+    <br>
+    <img src="./images/image.jpg" alt="Main Image">
+
+</section>
+
+<div id="projectsHeader">Recent Projects</div>
+<section class="projects">
+    <div class="project-item">
+        <div class="exp">
+            ☆ Professional
+        </div>
+        <h3>Le Project</h3>
+        <p>Brief description</p>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+        <br>
+    </div>
+    <div class="project-item">
+        <div class="exp">
+            ☆ Audio
+        </div>
+        <h3>Le Project</h3>
+        <p>Brief description</p>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+        <br>
+    </div>
+    <div class="project-item">
+        <div class="exp">
+            ☆ Personal
+        </div>
+        <h3>Le Project</h3>
+        <p>Brief description</p>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+        <br>
+    </div>
+    <br>
+</section>
+
+<div id="reviewsHeader">Recent Media Reviews</div>
+<section class="reviews">
+    <div class="review-item">
+        <h2>Movie Title</h2>
+        <p>film</p>
+        <p>
+            ~Thoughts~
+        </p>
+    </div>
+    <div class="review-item">
+        <h2>Album Title</h2>
+        <p>Music Album</p>
+        <p>
+            ~Thoughts~
+        </p>
+    </div>
+    <div class="review-item">
+        <h2>Gallery Piece</h2>
+        <p>Institution</p>
+        <p>
+            ~Thoughts~
+        </p>
+    </div>
+    <br>
+</section>
+
+<footer>
+    <p style="text-align: center">
+        <a href="#">Social1</a> |
+        <a href="#">Social2</a> |
+        <a href="#">Social3</a> |
+        <a href="#">Social4</a>
+        <br><br>
+        Copyright © Somthing, Inc. All rights reserved.<br>
+        Email? Addresss?
+        <br><br>
+        1-800-CON-TACT
+    </p>
+</footer>
+</body>
+</html>
