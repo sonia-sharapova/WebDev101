@@ -4,7 +4,7 @@ Some fun projects to learn HTML, CSS, and JavaScript.
 
 Some helpful tools can be found in *Resources/* folder:
 - **GroundZero.pdf**: A very brief intro if you have no HTML experience (to set yourself up)
-- **HTML_101.pdf** and *CSS_101.pdf*: Crash courses
+- **HTML_101.pdf** and **CSS_101.pdf**: Crash courses
 - **Resources.pdf**: Helpful tools and tutorials
 
 ## Project 1
