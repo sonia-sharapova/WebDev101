@@ -1,0 +1,115 @@
+/* Exhibitions Page Styles */
+
+.exhibition-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.exhibition-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nav-button {
+    background: none;
+    border: 1px solid #ddd;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.nav-button:hover {
+    background-color: #f0f0f0;
+}
+
+#exhibitionCounter {
+    margin: 0 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.exhibition-content {
+    display: flex;
+    gap: 40px;
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+}
+
+.exhibition-image-container {
+    flex: 1;
+    max-width: 500px;
+}
+
+.exhibition-image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #eee;
+}
+
+.exhibition-details {
+    flex: 1;
+}
+
+#exhibitionTitle {
+    margin: 0 0 10px 0;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 2em;
+}
+
+#exhibitionDate, #exhibitionLocation {
+    margin: 0 0 5px 0;
+    color: #666;
+}
+
+#exhibitionDescription {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.exhibition-works {
+    margin-top: 30px;
+}
+
+.exhibition-works h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+#exhibitionWorksList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#exhibitionWorksList li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Animation for transitions */
+.fade-transition {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .exhibition-content {
+        flex-direction: column;
+    }
+
+    .exhibition-image-container {
+        max-width: 100%;
+    }
+}
