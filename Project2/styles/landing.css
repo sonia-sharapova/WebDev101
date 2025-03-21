@@ -1,4 +1,6 @@
-/* "Hero" section, contains call to action */
+/* Home Page Styles */
+
+/* "Hero" Section: Main Attention Grab */
 .hero {
     display: flex;
     justify-content: space-between;
