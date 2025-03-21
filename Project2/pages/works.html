@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Works</title>
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+    <link rel="stylesheet" href="../styles/works.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Main Navigation -->
+<nav class="top-nav">
+    <a href="../index.html">Home</a>
+    <a href="#">CV</a>
+    <a href="#">Resources</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+</nav>
 
+<!-- Sub Navigation - Works active -->
+<div class="sub-nav">
+    <a href="works.html" class="active">Works</a>
+    <a href="exhibitions.html">Exhibitions</a>
+    <a href="#">Writings</a>
+    <a href="#">Notes</a>
+    <a href="#">Music</a>
+    <a href="#">Film</a>
+</div>
+
+<!-- Content Section -->
+<div class="content-section">
+    <div class="section-title">Selected Works:</div>
+    <!-- Work items will be dynamically inserted here -->
+</div>
+
+<!-- Categories Section -->
+<div class="categories">
+    <div class="category-column">
+        <div class="column-header">Sort by:</div>
+        <div class="category-item"><div class="checkbox"></div> All</div>
+        <div class="category-item"><div class="checkbox"></div> 2010-2015</div>
+        <div class="category-item"><div class="checkbox"></div> 2015-2020</div>
+        <div class="category-item"><div class="checkbox"></div> Audio</div>
+        <div class="category-item"><div class="checkbox"></div> Visual</div>
+        <div class="category-item"><div class="checkbox"></div> Collaboration</div>
+        <div class="category-item"><div class="checkbox"></div> Collage</div>
+    </div>
+
+    <div class="category-column">
+        <div class="column-header">-</div>
+        <div class="category-item"><div class="checkbox"></div> Confusing</div>
+        <div class="category-item"><div class="checkbox"></div> Constructed</div>
+        <div class="category-item"><div class="checkbox"></div> Dark</div>
+        <div class="category-item"><div class="checkbox"></div> Disaster Reality</div>
+        <div class="category-item"><div class="checkbox"></div> Drawing</div>
+        <div class="category-item"><div class="checkbox"></div> Environment</div>
+        <div class="category-item"><div class="checkbox"></div> Exhibition view</div>
+    </div>
+
+    <div class="category-column">
+        <div class="column-header">-</div>
+        <div class="category-item"><div class="checkbox"></div> For Linus</div>
+        <div class="category-item"><div class="checkbox"></div> Headache</div>
+        <div class="category-item"><div class="checkbox"></div> I don't know</div>
+        <div class="category-item"><div class="checkbox"></div> Installation</div>
+        <div class="category-item"><div class="checkbox"></div> Material</div>
+        <div class="category-item"><div class="checkbox"></div> Object</div>
+        <div class="category-item"><div class="checkbox"></div> Paintings</div>
+    </div>
+
+    <div class="category-column">
+        <div class="column-header">-</div>
+        <div class="category-item"><div class="checkbox"></div> Photo Based</div>
+        <div class="category-item"><div class="checkbox"></div> Print</div>
+        <div class="category-item"><div class="checkbox"></div> Relief</div>
+        <div class="category-item"><div class="checkbox"></div> Sculpture</div>
+        <div class="category-item"><div class="checkbox"></div> Text</div>
+        <div class="category-item"><div class="checkbox"></div> Too much</div>
+        <div class="category-item"><div class="checkbox"></div> Wall</div>
+    </div>
+</div>
+
+<!-- Image Gallery - Will be populated by JavaScript -->
+<div class="image-gallery">
+    <!-- Works will be dynamically inserted here -->
+</div>
+
+<!-- Work Modal -->
+<div id="workModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="modal-body">
+            <!-- Modal content will be dynamically inserted here -->
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p style="text-align: center">
+        <a href="#">Social1</a> |
+        <a href="#">Social2</a> |
+        <a href="#">Social3</a> |
+        <a href="#">Social4</a>
+        <br><br>
+        Copyright © Something, Inc. All rights reserved.<br>
+        Email? Address?
+        <br><br>
+        1-800-CON-TACT
+    </p>
+</footer>
+
+<script src="../scripts/works.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Exhibitions</title>
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+    <link rel="stylesheet" href="../styles/works.css">
+    <link rel="stylesheet" href="../styles/exhibitions.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Main Navigation -->
+<nav class="top-nav">
+    <a href="../index.html">Home</a>
+    <a href="#">CV</a>
+    <a href="#">Resources</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+</nav>
+
+<!-- Sub Navigation - Exhibitions active -->
+<div class="sub-nav">
+    <a href="works.html">Works</a>
+    <a href="exhibitions.html" class="active">Exhibitions</a>
+    <a href="#">Writings</a>
+    <a href="#">Notes</a>
+    <a href="#">Music</a>
+    <a href="#">Film</a>
+</div>
+
+<!-- Exhibition Content -->
+<div class="exhibition-container">
+    <div class="exhibition-navigation">
+        <button id="prevExhibition" class="nav-button">&lt;</button>
+        <div id="exhibitionCounter">1 / 5</div>
+        <button id="nextExhibition" class="nav-button">&gt;</button>
+    </div>
+
+    <div class="exhibition-content">
+        <div class="exhibition-image-container">
+            <img id="exhibitionImage" src="" alt="Exhibition Image">
+        </div>
+        <div class="exhibition-details">
+            <h2 id="exhibitionTitle">Exhibition Title</h2>
+            <p id="exhibitionDate">Date</p>
+            <p id="exhibitionLocation">Location</p>
+            <div id="exhibitionDescription">Description</div>
+
+            <div class="exhibition-works">
+                <h3>Featured Works</h3>
+                <ul id="exhibitionWorksList">
+                    <!-- Works will be populated by JavaScript -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p style="text-align: center">
+        <a href="#">Social1</a> |
+        <a href="#">Social2</a> |
+        <a href="#">Social3</a> |
+        <a href="#">Social4</a>
+        <br><br>
+        Copyright © Something, Inc. All rights reserved.<br>
+        Email? Address?
+        <br><br>
+        1-800-CON-TACT
+    </p>
+</footer>
+
+<script src="../scripts/exhibitions.js"></script>
+</body>
+</html>
